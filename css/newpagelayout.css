@@ -1,0 +1,75 @@
+.descLay{
+	width:70%;
+	margin: auto;
+	justify-content: space-around;
+    border-top: 40px white solid;
+    border-bottom: 40px white solid;
+    display: block;    
+}
+
+img.poster{
+	
+	float: left;
+	width: 40%;
+	border: 30px solid white;
+	padding: 3px;
+	height: 450px;
+}
+
+
+.desc{
+	width: 100%;
+	color: black;
+    font-size: 20px;
+    
+}
+.high{
+    width: 100%;
+    font-size: 40px;
+    font-weight: 1000;
+    display: block;
+    
+}
+.low{
+    width: 100%;
+    font-size: 17px;
+    font-weight: 300;
+    display: block;
+    
+}
+#quote{
+    font-size: 50px;
+    line-height: 53px;
+    color:#7f9f9f;
+}
+
+#quote::before{
+    content: open-quote;
+    font-size: 70px;
+    color:#7f9f9f;
+}
+
+#quote::after{
+    content: close-quote;
+    font-size: 70px;
+    color:#7f9f9f;
+}
+@media (max-width:992px){
+    img.poster{
+	
+	float: none;
+	width: 100%;
+	border: 30px solid white;
+	padding: 3px;
+	height: 450px;
+}
+    .descLay{
+	width:95%;
+	margin: auto;
+	justify-content: space-around;
+    border-top: 40px white solid;
+    border-bottom: 40px white solid;
+    display: block;    
+}
+
+}

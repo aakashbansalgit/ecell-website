@@ -1,0 +1,92 @@
+.iconsRow
+{
+	display:flex;
+	width: 95%;
+	justify-content:space-around;
+	padding: 15px;
+    overflow: hidden;
+}
+
+div.iconItem{
+	display: inline-block;
+	width: 260px;
+	vertical-align: top;
+	text-align: center;
+    overflow: hidden;
+}
+a.iconTitle
+{
+	font-family: "Nunito Sans", Arial, sans-serif;
+	font-size: 24px;
+    line-height: 1.8;
+    font-weight: 700;
+    color: #6fafaf
+    width: 40%;
+    text-align: center;
+    padding: 3px;
+}
+
+img.iconnew
+{
+	height: 275px;
+	width: 250px;
+	padding: 2px;
+}
+
+div.iconItem:hover
+{
+	opacity: 0.9;
+	-webkit-transform: scale(1.01, 1.01);
+	transition: opacity 0.4s;
+	transition: -webkit-transform 0.4s;
+	text-decoration: underline;
+	border: #5f9f9f solid 2px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+@media (max-width:992px){
+    .iconsRow
+{
+	display:block;
+	width: 95%;
+	justify-content:space-around;
+	padding: 15px;
+    overflow: hidden;
+}
+
+div.iconItem{
+	display: block;
+	width: 100%;
+	vertical-align: top;
+	text-align: center;
+    overflow: hidden;
+}
+a.iconTitle
+{
+	font-family: "Nunito Sans", Arial, sans-serif;
+	font-size: 24px;
+    line-height: 1.8;
+    font-weight: 700;
+    color: #6fafaf
+    width: 40%;
+    text-align: center;
+    padding: 3px;
+}
+
+img.iconnew
+{
+	height: 275px;
+	width: 250px;
+	padding: 2px;
+}
+
+div.iconItem:hover
+{
+	opacity: 0.9;
+	-webkit-transform: scale(1.01, 1.01);
+	transition: opacity 0.4s;
+	transition: -webkit-transform 0.4s;
+	text-decoration: underline;
+	border: #5f9f9f solid 2px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+}
