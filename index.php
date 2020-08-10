@@ -381,7 +381,76 @@ He believes in being domain agnostic, and being empathetic towards the needs of 
         </div>
       </div>
     </section>
-   
+    <!-- Blog Carousel -->
+    <section class='blog-carousel'>
+    
+    <h1 class="blog-title">Trending Blogs</h1>
+    <span class="iconify prev" data-icon="fa-solid:angle-double-left" data-inline="false"></span>
+    <span class="iconify next" data-icon="fa-solid:angle-double-right" data-inline="false"></span>   
+      <div class="post-wrapper">
+        <div class="post">
+        <img src="images/Ideas-Icon-1.png" alt="" class='slider-image'>
+        
+        <div class="post-info">
+        <h4><a href='https://ecell-bitshyd.in/'> E-Cell BITS Hyd</a></h4>
+        <i class="iconify" data-icon="fa-regular:user"></i> AUTHOR
+        &nbsp;
+        <i class="iconify" data-icon="fa-regular:calendar-alt"></i> 28th July, 2020
+        </div>
+      </div>
+      
+      <div class="post">
+      <img src="images/yourstory-what-is-an-entrepreneur-1.jpg" alt="" class='slider-image'>
+      
+      <div class="post-info">
+      <h4><a href='https://ecell-bitshyd.in/'> E-Cell BITS Hyd</a></h4>
+      <i class="iconify" data-icon="fa-regular:user"></i> AUTHOR
+        &nbsp;
+        <!-- <i  data-inline="false">July 13, 2020</i> -->
+        <i class="iconify" data-icon="fa-regular:calendar-alt"></i> 28th July, 2020
+        </div>
+      </div>
+      
+      <div class="post">
+      <img src="images/yourstory-what-is-an-entrepreneur-1.jpg" alt="" class='slider-image'>
+      
+      <div class="post-info">
+      <h4><a href='https://ecell-bitshyd.in/'> E-Cell BITS Hyd</a></h4>
+      <i class="iconify" data-icon="fa-regular:user"></i> AUTHOR
+        &nbsp;
+        <!-- <i  data-inline="false">July 13, 2020</i> -->
+        <i class="iconify" data-icon="fa-regular:calendar-alt"></i> 28th July, 2020
+        </div>
+      </div>
+      
+      <div class="post">
+      <img src="images/yourstory-what-is-an-entrepreneur-1.jpg" alt="" class='slider-image'>
+      
+      <div class="post-info">
+      <h4><a href='https://ecell-bitshyd.in/'> E-Cell BITS Hyd</a></h4>
+      <i class="iconify" data-icon="fa-regular:user"></i> AUTHOR
+        &nbsp;
+        <!-- <i  data-inline="false">July 13, 2020</i> -->
+        <i class="iconify" data-icon="fa-regular:calendar-alt"></i> 28th July, 2020
+        </div>
+      </div>
+
+      <div class="post">
+      <img src="images/yourstory-what-is-an-entrepreneur-1.jpg" alt="" class='slider-image'>
+      
+      <div class="post-info">
+      <h4><a href='https://ecell-bitshyd.in/'> E-Cell BITS Hyd</a></h4>
+      <i class="iconify" data-icon="fa-regular:user"></i> AUTHOR
+        &nbsp;
+        <!-- <i  data-inline="false">July 13, 2020</i> -->
+        <i class="iconify" data-icon="fa-regular:calendar-alt"></i> 28th July, 2020
+        </div>
+      </div>
+      
+    
+    </div>
+    </section>
+    <!-- //Blog Carousel -->
 
     <?php
       include './assets/footer.php'
@@ -408,5 +477,8 @@ He believes in being domain agnostic, and being empathetic towards the needs of 
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+  <!-- Blog Carousel -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script> 
 </body>
 </html>

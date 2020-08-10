@@ -4,6 +4,67 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ /*Blog Carousel */
+ .blog-carousel{
+  position: relative;
+ }
+ /* .blog-carousel a:hover{
+   color: #5f9f9f;
+  
+ } */
+ .blog-carousel .blog-title{
+   text-align: center;
+   margin: 30px auto; 
+ }
+ .blog-carousel .next{
+   position: absolute;
+   top: 50%;
+   right: 30px;
+   font-size: 2em;
+   color: #006669;
+   cursor: pointer;
+ }
+ .blog-carousel .prev{
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  font-size: 2em;
+  color: #006669;
+  cursor: pointer;
+}
+ .blog-carousel .post-wrapper{
+   overflow: hidden;
+   width: 84%;
+   height: 350px;
+   margin: 0 auto;
+   padding: 10px 0px 10px 0px;
+ 
+  }
+
+.blog-carousel .post-wrapper  .post{   
+   height: 330px;
+   width: 300px;
+   display: inline-block;
+   border-radius: 5px;
+   margin: 0px 10px;
+   box-shadow: 2rem 2rem 2rem -2rem #a0a0a033;
+ }
+ .blog-carousel .post-wrapper .post .slider-image{
+   width: 100%;
+   height: 200px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   /* border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px; */
+ }
+ .blog-carousel .post-wrapper  .post .post-info {
+   color: #000000;
+   height: 130px;
+   padding: 0px 5px;
+
+ }
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
