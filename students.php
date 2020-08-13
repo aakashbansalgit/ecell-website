@@ -103,7 +103,7 @@ h3{
     <div class="business">
       <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
         <div class="col-md-6 order-md-last E-Cell_Website-animate mt-5">
-          <h1 class="mb-4 stucol">AN OPPORTUNITY FOR THE STUDENTS BY THE STUDENTS</h1>
+          <h1 class="mb-4 stucol">AN OPPORTUNITY FOR THE STUDENTS BY THE STUDENTS </h1>
         </div>
         <div class="col-md-6 d-none d-md-block">
           <div class="play-video pb-5 d-flex align-items-center">
