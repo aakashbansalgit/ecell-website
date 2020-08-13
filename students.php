@@ -98,7 +98,7 @@ h3{
   <?php
       include './assets/header_home.php'
     ?>
-  <div class="E-Cell_Launchpad-wrap" style="background-image: url('images/ECELL STUDENT IMG.jpg');" data-stellar-background-ratio="0.5">
+  <div class="E-Cell_Launchpad-wrap" style="background-image: url('images/ECELL_STUDENT.jpg');" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="business">
       <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
