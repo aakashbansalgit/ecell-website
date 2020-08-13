@@ -29,6 +29,8 @@
         .rocketentrepreneur {position: fixed; left: 50px; top: 100px;}
         .platformentrepreneur {font-family:Verdana; text-align: center;}
         div span {position: relative;}
+        .stucol{
+  			color:#5cd1ff !important;}
     </style>
   </head>
   <body>
@@ -42,12 +44,13 @@
       <div class="business">
         <div class="row no-gutters slider-text align-items-center justify-content-end" data-scrollax-parent="true">
           <div class="col-md-6 order-md-last E-Cell_Website-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
-            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">ARTICLE HEADING</h1>
-            <p class="breadcrumbs"><span class="mr-2">YEaR</span></p>
+            <h1 class="mb-4 stucol" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Join hands with Launchpad!</h1>
+            <p class="breadcrumbs"><span class="mr-2 stucol">Connect with us</span></p>
           </div>
         </div>
       </div>
     </div>
+
     <section class="Launchpad_Guests-section">
       <div class="business">
         <div class="row E-Cell_Website-animate justify-content-center">
@@ -56,17 +59,17 @@
         	</div>
           <div class="col-md-6 py-5">
           	<div class="heading-section heading-section-white pt-4 E-Cell_Website-animate">
-              <h4>The Article Main Paragraph</h4>
+              <h4>BE A PART OF OUR EXPONENTIALLY GROWING ECOSYSTEM</h4>
 		        </div>
             <div class="launchpad-Launchpad_Guests owl-launchpad E-Cell_Website-owl">
               <div class="item">
                 <div class="Launchpad_Guests-wrap pb-4">
                   <div class="text">
-                    <p class="mb-4">The subheading content</p>
+                    <p class="mb-4">We at ECell are hosting year-round activities to focus on inspiring and nurturing STUDENTS through live sessions/workshops. LAUNCHPAD has truly established itself as a juncture for STUDENTS to network, learn and appreciate the development in the startup community, and with the success of our INTERNSHIP DRIVE we look forward to continuing the tradition in the upcoming editions as well.</p>
                   </div>
                   <div class="d-flex">
 	                  <div class="pos ml-3">
-	                  	<p class="name">Article subheading</p>
+	                  	<a href="./students.php" class="name">Students, click here for more information!</a>
 	                  </div>
 	                </div>
                 </div>
@@ -74,47 +77,11 @@
               <div class="item">
                 <div class="Launchpad_Guests-wrap pb-4">
                   <div class="text">
-                    <p class="mb-4">The subheading content</p>
+                    <p class="mb-4">  LAUNCHPAD is a great platform for a Start-up to reach students, budding entrepreneurs, and corporate partners as we receive participation and attendee applications from all across the nation.The expertise and experience of a Start-up would be invaluable for us and it would be honour to host you!</p>
                   </div>
                   <div class="d-flex">
 	                  <div class="pos ml-3">
-	                  	<p class="name">Article subheading</p>
-	                  </div>
-	                </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="Launchpad_Guests-wrap pb-4">
-                  <div class="text">
-                    <p class="mb-4">The subheading content</p>
-                  </div>
-                  <div class="d-flex">
-	                  <div class="pos ml-3">
-	                  	<p class="name">Article subheading</p>
-	                  </div>
-	                </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="Launchpad_Guests-wrap pb-4">
-                  <div class="text">
-                    <p class="mb-4">The subheading content</p>
-                  </div>
-                  <div class="d-flex">
-	                  <div class="pos ml-3">
-	                  	<p class="name">Article subheading</p>
-	                  </div>
-	                </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="Launchpad_Guests-wrap pb-4">
-                  <div class="text">
-                    <p class="mb-4">The subheading content</p>
-                  </div>
-                  <div class="d-flex">
-	                  <div class="pos ml-3">
-	                  	<p class="name">Article subheading</p>
+	                  	<a href="./startupdata.php" class="name">Start-ups, click here for more information!</a>
 	                  </div>
 	                </div>
                 </div>
@@ -124,6 +91,9 @@
         </div>
       </div>
     </section>
+
+
+
     
     <?php
       include './assets/footer.php'
